@@ -1,0 +1,67 @@
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/headerBg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header .wrapper{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+header .cta{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 453px;
+    height: 326px;
+    background: rgba(0, 0, 0, 0.5);
+    border-width: 4px 4px 0px 4px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    /* backdrop-filter: blur(25px); Note: backdrop-filter has minimal browser support */
+    /*Another alternative is to use an SVG filter with the backdrop-filter property,
+    which has better support than the blur() function.*/
+    backdrop-filter: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="blur"><feGaussianBlur stdDeviation="25" /></filter></svg>#blur');
+    border-radius: 20px 20px 0px 0px;
+    padding: 50px 40px;
+}
+
+header .cta .course-name{
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
+    position: relative;
+}
+
+header .cta .course-name::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: var(--red-color);
+    left: 0;
+    bottom: -10px;
+
+}
+
+header .cta h1{
+    font-family: "Alegreya";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+header .cta .demo-btn{
+    border-radius: 10px;
+    background-color: var(--red-color);
+    color: #ffffff;
+    padding: 10px 32px;
+    font-family: "Alegreya";
+    font-weight: 800;
+    font-size: 18px;
+}

@@ -1,5 +1,5 @@
 import logo from './logo.svg'
-import headerBg from 'headerBg.png'
+import headerBg from './headerBg.png'
 import topics1 from './topics1.png'
 import topics2 from './topics2.png'
 import topics3 from './topics3.png'
