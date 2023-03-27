@@ -6,8 +6,10 @@ import topics3 from './topics3.png'
 import topics4 from './topics4.png'
 import topics5 from './topics5.png'
 import topics6 from './topics6.png'
+import topicsBgElement from './topicsBgElement.svg'
 import student from './student.svg'
 import file from './file.svg'
+import infoBgElement from './infoBgElement.svg'
 import blog1 from './blog1.png'
 import blog2 from './blog2.png'
 import blog3 from './blog3.png'
@@ -20,8 +22,8 @@ import twitterLogo from './twitterLogo.svg'
 
 export {
     logo, headerBg, /*Header*/
-    topics1, topics2, topics3, topics4, topics5, topics6, /*Topics*/
-    student, file, /*Info*/
+    topics1, topics2, topics3, topics4, topics5, topics6, topicsBgElement, /*Topics*/
+    student, file, infoBgElement, /*Info*/
     blog1, blog2, blog3, /*Blog*/ 
     peterAdams, emilySmith, robertFox, /*Testimonials*/
     facebookLogo, twitterLogo, instagramLogo /*Footer*/
